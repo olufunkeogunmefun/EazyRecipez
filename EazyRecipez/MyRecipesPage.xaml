@@ -34,16 +34,19 @@
 
                 <Border Padding="0" CornerRadius="6" BorderBrush="Gray" Background="#F8F8F8" BorderThickness="1" DockPanel.Dock="Top" Width="Auto" Height="Auto">
                     <StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <Image Source="Images/icons8-pancake-96.png" Width="Auto"/>
-                            <StackPanel>
-                                <Label Content="Recipe Name" Width="189" FontSize="18" FontWeight="Bold"/>
-                                <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
-                                <Label Content="Estimated time to complete" Width="190"/>
-                                <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
+                        <Button Click="UserRecipe_Click" Background="{x:Null}" BorderThickness="0" HorizontalAlignment="Left">
 
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="Images/icons8-pancake-96.png" Width="Auto"/>
+                                <StackPanel>
+                                    <Label Content="Recipe Name" Width="189" FontSize="18" FontWeight="Bold"/>
+                                    <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
+                                    <Label Content="Estimated time to complete" Width="190"/>
+                                    <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
+
+                                </StackPanel>
                             </StackPanel>
-                        </StackPanel>
+                        </Button>
 
 
                         <StackPanel Orientation="Horizontal">
@@ -153,7 +156,6 @@
             <Frame x:Name="Main" NavigationUIVisibility="Hidden"></Frame>
             <Button Content="Button" Canvas.Left="10" Canvas.Top="90" Width="350" Height="30" Opacity="0" Click="Button_Click"/>
             <Button Content="Button" Canvas.Left="10" Canvas.Top="395" Width="350" Height="30" Opacity="0" Click="Offline_Click"/>
-            <Button Content="Button" Canvas.Left="10" Canvas.Top="125" Width="350" Height="92" Opacity="0" Click="UserRecipe_Click"/>
 
 
         </Canvas>

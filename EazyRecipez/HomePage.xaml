@@ -62,18 +62,19 @@
         <ScrollViewer VerticalScrollBarVisibility="Hidden"  HorizontalAlignment="Left" Height="565" Margin="0,135,0,0" VerticalAlignment="Top" Width="375" >
             <Border Padding="0" CornerRadius="6" BorderBrush="Gray" Background="#F8F8F8" BorderThickness="1" DockPanel.Dock="Top" Width="350" Height="Auto">
                 <StackPanel Margin="10">
-                    
-                    <StackPanel Orientation="Horizontal">
-                        
-                        <Image Source="Images/icons8-pancake-96.png" Width="Auto"/>
-                        <StackPanel>
-                            <Label Content="Recipe Name" Width="189" FontSize="17" FontWeight="Bold"/>
-                            <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
-                            <Label Content="Estimated time to complete" Width="190"/>
-                            <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
+                    <Button Click="Recipe_Click" Background="{x:Null}" BorderThickness="0" HorizontalAlignment="Left">
+                        <StackPanel Orientation="Horizontal">
 
+                            <Image Source="Images/icons8-pancake-96.png" Width="Auto"/>
+                            <StackPanel>
+                                <Label Content="Recipe Name" Width="189" FontSize="17" FontWeight="Bold"/>
+                                <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
+                                <Label Content="Estimated time to complete" Width="190"/>
+                                <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
+
+                            </StackPanel>
                         </StackPanel>
-                    </StackPanel>
+                    </Button>
 
 
                     <StackPanel Orientation="Horizontal">
@@ -178,7 +179,6 @@
                 <TextBlock HorizontalAlignment="Left" Height="15" Margin="38,744,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Width="36"/>
                 <TextBlock HorizontalAlignment="Left" Height="15" Margin="167,744,0,0" TextWrapping="Wrap" Text="Create" VerticalAlignment="Top" Width="36"/>
                 <TextBlock HorizontalAlignment="Left" Height="15" Margin="310,745,0,0" TextWrapping="Wrap" Text="Profile" VerticalAlignment="Top" Width="36"/>
-                <Button Content="Button" Height="100" Opacity="0" VerticalAlignment="Top" Width="355" Margin="20,135,0,0" Click="Recipe_Click"/>
             </Canvas>
 
 
