@@ -65,11 +65,11 @@
                     <Button Click="Recipe_Click" Background="{x:Null}" BorderThickness="0" HorizontalAlignment="Left">
                         <StackPanel Orientation="Horizontal">
 
-                            <Image Source="Images/icons8-pancake-96.png" Width="Auto"/>
+                            <Image Source="Images/ham.jpg" Width="95" Height="76"/>
                             <StackPanel>
-                                <Label Content="Recipe Name" Width="189" FontSize="17" FontWeight="Bold"/>
-                                <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
-                                <Label Content="Estimated time to complete" Width="190"/>
+                                <Label Content="Honey-Glazed Ham" Width="189" FontSize="17" FontWeight="Bold"/>
+                                <Label Content="☆☆☆☆☆ (113 reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
+                                <Label Content="2 hrs 50 mins" Width="190"/>
                                 <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
 
                             </StackPanel>
@@ -78,22 +78,22 @@
 
 
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Images/icons8-bento-96.png" Width="Auto"/>
+                        <Image Source="Images/blt.jpg" Width="96" Height="67"/>
                         <StackPanel>
-                            <Label Content="Recipe Name" Width="189" FontSize="17" FontWeight="Bold"/>
-                            <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
-                            <Label Content="Estimated time to complete" Width="190"/>
+                            <Label Content="BLT Sandwich" Width="189" FontSize="17" FontWeight="Bold"/>
+                            <Label Content="☆☆☆ (36 reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
+                            <Label Content="15 mins" Width="190"/>
                             <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
                         </StackPanel>
                     </StackPanel>
 
 
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Images/icons8-pizza-96.png" Width="Auto"/>
+                        <Image Source="Images/tapioca.jpg" Width="96" Height="87" Stretch="Fill"/>
                         <StackPanel>
-                            <Label Content="Recipe Name" Width="189" FontSize="17" FontWeight="Bold"/>
-                            <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
-                            <Label Content="Estimated time to complete" Width="190"/>
+                            <Label Content="Tapioca Pudding" Width="189" FontSize="17" FontWeight="Bold"/>
+                            <Label Content="☆☆☆☆☆ 98 reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
+                            <Label Content="30 mins" Width="190"/>
                             <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
                         </StackPanel>
                     </StackPanel>
@@ -101,33 +101,33 @@
 
 
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Images/icons8-taco-96.png" Width="Auto"/>
+                        <Image Source="Images/cinammon.jpg" Width="96" Height="92" Stretch="Fill"/>
                         <StackPanel>
-                            <Label Content="Recipe Name" Width="189" FontSize="17" FontWeight="Bold"/>
-                            <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
-                            <Label Content="Estimated time to complete" Width="190"/>
+                            <Label Content="Cinammon Rolls" Width="189" FontSize="17" FontWeight="Bold"/>
+                            <Label Content="☆☆☆☆ (70 reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
+                            <Label Content="30 mins" Width="190"/>
                             <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
                         </StackPanel>
                     </StackPanel>
 
 
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Images/icons8-cereal-96.png" Width="Auto"/>
+                        <Image Source="Images/jollof.jpg" Width="96" Height="85" Stretch="Fill"/>
                         <StackPanel>
-                            <Label Content="Recipe Name" Width="189" FontSize="17" FontWeight="Bold"/>
-                            <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
-                            <Label Content="Estimated time to complete" Width="190"/>
+                            <Label Content="Jollof Rice" Width="189" FontSize="17" FontWeight="Bold"/>
+                            <Label Content="☆☆☆☆☆ (110 reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
+                            <Label Content="50 mins" Width="190"/>
                             <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
                         </StackPanel>
                     </StackPanel>
 
 
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Images/icons8-bagel-96.png" Width="Auto"/>
+                        <Image Source="Images/pulledpork.jpg" Width="96" Height="73"/>
                         <StackPanel>
-                            <Label Content="Recipe Name" Width="189" FontSize="17" FontWeight="Bold"/>
-                            <Label Content="☆☆☆☆☆ (# of reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
-                            <Label Content="Estimated time to complete" Width="190"/>
+                            <Label Content="Pulled Pork Sandwich" Width="189" FontSize="16.5" FontWeight="Bold"/>
+                            <Label Content="☆☆☆ (44 reviews)" Width="190" FontSize="15" FontWeight="Bold"/>
+                            <Label Content="20 mins" Width="190"/>
                             <Rectangle  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Fill="#FFBFBFBF" Height="1"/>
                         </StackPanel>
                     </StackPanel>
@@ -168,7 +168,7 @@
             </Border>
         </ScrollViewer>
 
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="99"  VerticalAlignment="Bottom" Width="384"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="99"  VerticalAlignment="Bottom" Width="400" Margin="-5,0"/>
         <StackPanel Margin="-5">
 
             <Canvas>
@@ -185,6 +185,10 @@
         </StackPanel>
         <Button Content="Button" HorizontalAlignment="Left" Margin="297,705,0,0" VerticalAlignment="Top" Width="50" Height="50" Opacity="0" Click="Profile_Click"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="155,705,0,0" VerticalAlignment="Top" Width="50" Height="50" Opacity="0" Click="Create_Click"/>
+
+
+
+
 
 
 
